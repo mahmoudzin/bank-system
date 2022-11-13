@@ -5,7 +5,7 @@ import ITransfer from '../components/Interfaces/ITransfer';
 
 
 export const fetchTransfers = createAsyncThunk('transfers/fetchTransfers', async ()=>{ 
-    const {data} = await axios.get('http://localhost:8080/getAllTransfers');
+    const {data} = await axios.get('/getAllTransfers');
     return data
 });
 interface transfer {
@@ -14,7 +14,7 @@ interface transfer {
     quantity:number
 }
 export const newTransfer = createAsyncThunk('transfers/newTransfer', async (transfer:transfer)=>{ 
-    const {data} = await axios.post('http://localhost:8080/newTransfer', transfer);
+    const {data} = await axios.post('/newTransfer', transfer);
     return data
 });
 

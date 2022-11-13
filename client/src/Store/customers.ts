@@ -4,7 +4,7 @@ import axios from 'axios';
 import ICustomer from '../components/Interfaces/ICustomer';
 
 export const fetchCustomers = createAsyncThunk('customers/fetchCustomers', async ()=>{ 
-    const {data} = await axios.get('http://localhost:8080/getAllUsers');
+    const {data} = await axios.get('/getAllUsers');
     return data
 });
 
