@@ -4,7 +4,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://mahmoudzin.github.io/BankSystem/">
+    <a href="https://bank--system.herokuapp.com/">
       Demo
     </a>
   </h3>
@@ -25,7 +25,7 @@
 ## Overview
 ![screenshot](https://github.com/mahmoudzin/BankSystem/blob/master/main.png)
 
-- You Can See Demo from [here](https://mahmoudzin.github.io/BankSystem/)
+- You Can See Demo from [here](https://bank--system.herokuapp.com/)
 
 ----------------------------------------------------------------
 
