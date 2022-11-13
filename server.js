@@ -3,9 +3,7 @@ import cors from 'cors';
 import UsersController from './server/UsersController.js';
 import TransferController from './server/TransferController.js';
 import path from 'path';
-import { fileURLToPath } from 'url';
 
-//const __dirname = path.dirname('');
 
 const userController = new UsersController();
 const transferController = new TransferController();
