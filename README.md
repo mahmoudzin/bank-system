@@ -23,7 +23,7 @@
 <!-- OVERVIEW -->
 
 ## Overview
-![screenshot](https://github.com/mahmoudzin/BankSystem/blob/master/main.png)
+![screenshot](https://github.com/mahmoudzin/bank-system/blob/masterbranch/main.png)
 
 - You Can See Demo from [here](https://bank--system.herokuapp.com/)
 
