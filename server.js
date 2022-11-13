@@ -10,7 +10,7 @@ const transferController = new TransferController();
 
 const app = express();
 
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 app.use(express.urlencoded());
 app.use(express.json());
